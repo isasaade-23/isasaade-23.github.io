@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Isabela Venancio da Silva</title>
+<meta name="description" content="Isabela Venancio da Silva, doutoranda em Saúde Pública na FSP/USP e pesquisadora do LABDAPS. Perfis acadêmicos e contato.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --fundo: #F6F2EE;
+    --botao: #3D5A80;
+    --titulo: #1F3050;
+    --secundario: #6B7280;
+    --coral: #EE6C4D;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fundo);
+    color: var(--titulo);
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 56px 20px 40px;
+  }
+  main { width: 100%; max-width: 440px; text-align: center; }
+  h1 {
+    font-weight: 300;
+    font-size: clamp(2rem, 9vw, 2.75rem);
+    line-height: 1.15;
+    margin: 0;
+    color: var(--titulo);
+  }
+  .traco { width: 48px; height: 3px; background: var(--coral); border: 0; margin: 20px auto; }
+  .sub { color: var(--secundario); font-size: 1rem; line-height: 1.5; margin: 0 0 36px; }
+  nav { display: flex; flex-direction: column; gap: 12px; }
+  a.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 0 #E4DED6, 0 6px 16px rgba(31, 48, 80, .12);
+    transition: transform .15s ease, background .15s ease;
+    padding: 16px 20px;
+    background: var(--botao);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .02em;
+    border-radius: 10px;
+  }
+  a.btn::after { content: "\2192"; font-weight: 400; opacity: .75; }
+  a.btn:hover, a.btn:focus-visible { background: var(--titulo); transform: translateY(-1px); }
+  a.btn:focus-visible { outline: 3px solid var(--coral); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Isabela Venancio da Silva</h1>
+  <hr class="traco">
+  <p class="sub">Doutoranda em Saúde Pública · FSP/USP · LABDAPS</p>
+  <nav>
+    <a class="btn" href="http://lattes.cnpq.br/7006765766090773" rel="noopener">Currículo Lattes</a>
+    <a class="btn" href="https://orcid.org/0000-0003-0156-7837" rel="noopener">ORCID</a>
+    <a class="btn" href="https://github.com/isasaade-23" rel="noopener">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/isabela-venancio-67530a260" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://www.researchgate.net/profile/Isabela-Venancio-Da-Silva" rel="noopener">ResearchGate</a>
+    <a class="btn" href="https://labdaps.fsp.usp.br/membro/isabela-venancio-da-silva" rel="noopener">LABDAPS</a>
+    <a class="btn" href="mailto:isa_venancio@usp.br">E-mail</a>
+  </nav>
+</main>
+</body>
+</html>
